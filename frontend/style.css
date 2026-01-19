@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#formCadastro{
+    display: flex;
+    flex-direction: column;
+    min-height: 420px;
+    width: 450px;
+    padding: 40px;
+    gap: 30px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: rgb(247, 247, 247);
+}
+.campo{
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    align-items: center;
+}
+.campo-botao{
+    justify-content: center;
+}
+.campo input{
+    height: 35px;
+    width: 60%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+}
+#btnSubmit{
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border: 1px solid gray;
+
+}
