@@ -51,6 +51,8 @@ body {
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    border: 1px solid gray;
-
+    background-color: rgb(35, 105, 196);
+    border: none;
+    color: #eee;
+    font-size: 15px;
 }
