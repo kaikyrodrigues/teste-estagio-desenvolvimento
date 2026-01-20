@@ -13,7 +13,7 @@ form.addEventListener("submit", function (event) {
 
     const formData = new FormData(form);
 
-    fetch("../backend-php/cadastro.php", {
+    fetch("http://localhost:8000/backend-php/cadastro.php", {
         method: "POST",
         body: formData
     })
